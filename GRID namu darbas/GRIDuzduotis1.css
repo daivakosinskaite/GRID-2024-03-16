@@ -1,0 +1,421 @@
+
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(8, 150px);
+    grid-template-rows: repeat(5, 150px);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.one {
+    grid-area:1 / 1 / 2 / 2;
+    align-self: center;
+    justify-self: center;
+    
+}
+.one {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .one img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .one:hover .overlay {
+    opacity: 1; 
+  }
+  
+  .text {
+    color: white;
+    position: absolute;
+    font-size: 4vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    
+  }
+
+
+.two {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.two {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .two img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .two:hover .overlay {
+    opacity: 1; 
+  }
+  
+
+.three {
+    grid-area: 1 / 3 / 2 / 4;
+    
+}
+.three {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .three img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .three:hover .overlay {
+    opacity: 1; 
+  }
+  
+
+.four {
+    grid-area: 1 / 4 / 3 / 5;
+}
+
+.four {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .four img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .four:hover .overlay {
+    opacity: 1; 
+  }
+  
+
+.five {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.five {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .five img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .five:hover .overlay {
+    opacity: 1; 
+  }
+
+.six {
+    grid-area: 1 / 6 / 2 / 8;
+}
+.six {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .six img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .six:hover .overlay {
+    opacity: 1; 
+  }
+
+
+.seven {
+    grid-area: 1 / 8 / 3 / 9;
+}
+
+.seven {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .seven img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .seven:hover .overlay {
+    opacity: 1; 
+  }
+
+
+.eight {
+    grid-area: 2 / 1 / 3 / 3;
+    
+}
+
+.eight {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .eight img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .eight:hover .overlay {
+    opacity: 1; 
+  }
+
+.nine {
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.nine {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nine img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nine:hover .overlay {
+    opacity: 1; 
+  }
+
+.ten {
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+.ten {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .ten img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .ten:hover .overlay {
+    opacity: 1; 
+  }
+
+.eleven {
+    grid-area: 2 / 5 / 4 / 7;
+}
+
+.eleven {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .eleven img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .eleven:hover .overlay {
+    opacity: 1; 
+  }
+
+
+
+.twelve {
+    grid-area: 2 / 7 / 3 / 8;
+}
+
+.twelve {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .twelve img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .twelve:hover .overlay {
+    opacity: 1; 
+  }
+
+
+.thirteen {
+    grid-area: 3 / 1 / 5 / 3;
+}
+
+.thirteen {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .thirteen img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .thirteen:hover .overlay {
+    opacity: 1; 
+  }
+
+
+.fourteen {
+    grid-area: 5 / 1 / 6 / 2;
+}
+
+.fourteen {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .fourteen img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .fourteen:hover .overlay {
+    opacity: 1; 
+  }
+
+
+.fiveteen {
+    grid-area: 5 / 2 / 6 / 3;
+}
+
+.fiveteen {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .fiveteen img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .fiveteen:hover .overlay {
+    opacity: 1; 
+  }
+
+.sixteen {
+    grid-area: 4 / 3 / 6 / 5;
+}
+
+.sixteen {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .sixteen img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .sixteen:hover .overlay {
+    opacity: 1; 
+  }
+
+
+  
+.seventeen {
+    grid-area: 4 / 5 / 6 / 6;
+}
+.seventeen {
+    position: relative;
+    display: inline-block;
+  }
+  .seventeen img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .seventeen:hover .overlay {
+    opacity: 1; 
+  }
+
+
+
+.eighteen {
+    grid-area: 4 / 6 / 5 / 7;
+
+}
+.eighteen {
+    position: relative;
+    display: inline-block;
+  }
+  .eighteen img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .eighteen:hover .overlay {
+    opacity: 1; 
+  }
+
+
+
+.nineteen {
+    grid-area: 5 / 6 / 6 / 7;
+}
+.nineteen {
+    position: relative;
+    display: inline-block;
+  }
+  .nineteen img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .nineteen:hover .overlay {
+    opacity: 1; 
+  }
+
+
+
+.twenty {
+    grid-area: 3 / 7 / 6 / 9;
+}
+.twenty {
+    position: relative;
+    display: inline-block;
+  }
+  .twenty img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .twenty:hover .overlay {
+    opacity: 1; 
+  }
